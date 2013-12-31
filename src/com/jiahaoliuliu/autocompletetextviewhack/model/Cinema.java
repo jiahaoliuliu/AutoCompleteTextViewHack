@@ -11,6 +11,9 @@ public class Cinema {
     // The complete address of the cinema
     private String cinemaCompleteAddress;
 
+    // The empty constructor
+    public Cinema(){}
+
 	public Cinema(int cinemaID, String cinemaName,
 			String cinemaCompleteAddress) {
 		super();
