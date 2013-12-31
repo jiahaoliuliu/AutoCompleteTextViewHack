@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 		cinemas.add(cinema);
 
         ArrayAdapter<Cinema> adapter = new ArrayAdapter<Cinema>(this,
-                android.R.layout.simple_dropdown_item_1line, cinemas);
+                R.layout.simple_dropdown_item_1line_mod, cinemas);
         simpleAutoCompleteTextView.setAdapter(adapter);
         simpleAutoCompleteTextView.setOnItemClickListener(new OnItemClickListener() {
 
