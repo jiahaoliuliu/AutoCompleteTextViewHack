@@ -84,9 +84,12 @@ public class Cinema {
 		return true;
 	}
 
+	/**
+	 * Hack. Do not modify. To String Must return the name of the cinema, which is the one returned
+	 * by the AutoCompleteTextView.
+	 */
 	@Override
 	public String toString() {
 		return getCinemaName();
 	}
-
 }
