@@ -32,19 +32,19 @@ public class MainActivity extends Activity {
 		final List<Cinema> cinemas = new ArrayList<Cinema>();
 		Cinema cinema = new Cinema();
 		cinema.setCinemaID(1);
-		cinema.setCinemaName("CineBox2 La Gavia 3D");
+		cinema.setCinemaName("CineBox La Gavia 3D");
 		cinema.setCinemaCompleteAddress("Calle Adolfo Bioy Casares 2, Madrid, Spain");
 		cinemas.add(cinema);
 
 		cinema = new Cinema();
 		cinema.setCinemaID(2);
-		cinema.setCinemaName("CineBox2 Proyecciones 3D");
+		cinema.setCinemaName("CineBox Proyecciones 3D");
 		cinema.setCinemaCompleteAddress("Calle Fuencarral 136, Madrid, Spain");
 		cinemas.add(cinema);
 
 		cinema = new Cinema();
 		cinema.setCinemaID(3);
-		cinema.setCinemaName("CineBox2 Capitol");
+		cinema.setCinemaName("CineBox Capitol");
 		cinema.setCinemaCompleteAddress("Calle Gran vía 41, Madrid, Spain");
 		cinemas.add(cinema);
 
