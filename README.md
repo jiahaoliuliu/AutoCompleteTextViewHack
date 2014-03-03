@@ -3,7 +3,7 @@ AutoCompleteTextViewHack
 
 An easy hack to use the AutoCompleteTextView of Android
 
-Related:
+Related with:
 http://www.jiahaoliuliu.com/2013/12/autocompletetextview-simple-hack-to.html
 
 AutoCompleteTextView was added from the API Level 1 and it is very useful to show a list of hints while the user is typing.
