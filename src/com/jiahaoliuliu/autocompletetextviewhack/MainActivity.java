@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		Log.v(TAG, "Started");
+
 		simpleAutoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.simpleAutoCompleteTextView);
 		detailsTextView = (TextView) findViewById(R.id.detailsTextView);
 
